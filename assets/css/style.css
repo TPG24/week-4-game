@@ -1,0 +1,77 @@
+body {
+    color: #000000;
+    background-image: url("../pictures/gaming-pattern.png");
+
+}
+
+ul li {
+    float: left;
+
+}
+
+
+
+#crystal-1 {
+    background: transparent;
+    border: none;
+
+}
+
+#crystal-1:hover {
+    box-shadow: 0 4px #5f5f5e;
+    top: 2px;
+}
+
+#crystal-1:active {
+    box-shadow: 0px 0px #5f5f5e;
+    top: 6px;
+}
+
+#crystal-2 {
+    background: transparent;
+    border: none;
+
+}
+
+#crystal-2:hover {
+    box-shadow: 0 4px #5f5f5e;
+    top: 2px;
+}
+
+#crystal-2:active {
+    box-shadow: 0px 0px #5f5f5e;
+    top: 6px;
+}
+
+#crystal-3 {
+    background: transparent;
+    border: none;
+
+}
+
+#crystal-3:hover {
+    box-shadow: 0 4px #5f5f5e;
+    top: 2px;
+}
+
+#crystal-3:active {
+    box-shadow: 0px 0px #5f5f5e;
+    top: 6px;
+}
+
+#crystal-4 {
+    background: transparent;
+    border: none;
+
+}
+
+#crystal-4:hover {
+    box-shadow: 0 4px #5f5f5e;
+    top: 2px;
+}
+
+#crystal-4:active {
+    box-shadow: 0px 0px #5f5f5e;
+    top: 6px;
+}
+

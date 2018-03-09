@@ -3,10 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>week-4-game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    <link rel="stylesheet" href="assets/reset.css">
 </head>
 <body>
+<div class="container">
+    <div class="jumbotron-fluid text-center background py-5">
+        <div class="container py-5">
+            <div class="row align-items center">
+                <div class="col-12 col-md-6 my-3">
+                    <h1><strong>Crystal Game</strong></h1>
+                    <br/>
+                    <ul>
+                        <li>A random number is generated at the beginning of the game!</li>
+                        <li>The four Crystals below have random values!</li>
+                        <li>The objective is to match the score give with the random Crystal Values!</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-6 my-3">
+                    <h2>Number to Collect!
+                    <br/>
+                        <span id="number-place-holder">__!</span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid">
+    <div class="row" id="crystal-row">
+        <div class="col-12 col-lg-4 text-center py-5" id="wins-section">
+            <h2>Wins
+            <br/>
+            <span id="win-score">0</span>
+            </h2>
+        </div>
+        <div class="col-12 col-lg-4 text-center py-5" id="your-score-section">
+            <h2>Your Score
+                <br/>
+                <span id="your-score">0</span>
+            </h2>
+        </div>
+        <div class="col-12 col-lg-4 text-center py-5" id="losses-section">
+            <h2>Losses
+                <br/>
+                <span id="loss-score">0</span>
+            </h2>
+        </div>
+    </div>
+
+    <div class="row" id="value-of-crystals">
+        <div class="col-12 col-md-3 text-center my-3">
+            <button id="crystal-1" class="crystal" value=""><img src="assets/pictures/Gem.jpeg" height="250px" width="250px"></button>
+        </div>
+        <div class="col-12 col-md-3 text-center my-3">
+            <button id="crystal-2" class="crystal" value=""><img src="assets/pictures/Gem2.jpeg" height="250px" width="250px"></button>
+        </div>
+        <div class="col-12 col-md-3 text-center my-3">
+            <button id="crystal-3" class="crystal" value=""><img src="assets/pictures/Gem3.jpeg" height="250px" width="250px"></button>
+        </div>
+        <div class="col-12 col-md-3 text-center my-3">
+            <button id="crystal-4" class="crystal" value=""><img src="assets/pictures/Gem4.jpeg" height="250px" width="250px"></button>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/crystal-game-function.js"></script>
+
+
+
+
+
+
+</div>
 
 </body>
 </html>
